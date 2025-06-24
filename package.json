@@ -1,0 +1,21 @@
+{
+  "name": "mdt-installer",
+  "version": "1.0.0",
+  "description": "MDT Installer App for FiveM roleplay",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.yourname.mdtinstaller",
+    "productName": "MDT Installer",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^23.6.0"
+  }
+}
