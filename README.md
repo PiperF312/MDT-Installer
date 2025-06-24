@@ -1,2 +1,0 @@
-# MDT-Installer
-MDT-Installer
